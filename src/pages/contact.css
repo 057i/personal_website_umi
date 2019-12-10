@@ -1,0 +1,82 @@
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contactHeader {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.navigation {
+  color: orange;
+  font-size: 1.3em;
+  margin: 1.5em 0;
+  display: inline-block;
+}
+
+.navigation:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title {
+  padding: 2em 0 1em 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.contactMe {
+  padding: 1em 0 1em 1.5em;
+}
+
+.email {
+  width: 70%;
+  height: 3em;
+  background-color: #f5f2f0;
+  border: .3em solid #333;
+  border-radius: .5em;
+  padding: 1em 0 1em 2em;
+  margin-left: 2em;
+  margin-bottom: 2.5em;
+  line-height: 3em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.emailIcon {
+  width: 2.5em;
+  height: 2.5em;
+  background-image: url("../assets/email.jpg");
+  background-size: cover;
+  vertical-align: middle;
+  border-radius: .3em;
+  margin-right: .5em;
+}
+
+.curTime {
+  margin: 3em 0;
+  width: 90%;
+  height: 4em;
+  background: #abc;
+  border-radius: .5em;
+  line-height: 4em;
+  padding-left: 2em;
+}
+
+.underlineArea {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+footer {
+  margin-top: 1em;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 2em;
+  color: #d3d3d3;
+}
+
+footer span:hover {
+  color: grey;
+  text-decoration: underline;
+}
+

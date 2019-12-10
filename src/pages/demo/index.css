@@ -1,0 +1,65 @@
+.demoWrapper {
+  width: 85%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.demoHeader {
+  margin-top: 2em;
+}
+
+.show {
+  width: 100%;
+  padding: 2em 1em;
+  box-sizing: border-box;
+}
+
+.demoContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.demo {
+  display: inline-block;
+  width: 18em;
+  height: 23em;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 1em;
+  margin: 0 1em 2em 1em;
+  text-align: center;
+}
+
+.image {
+  width: 13em;
+  height: 15em;
+  margin: 1.5em 0 2em 0;
+  display: inline-block;
+  background-image: url("../../assets/bg0.jpg");
+  background-size: contain;
+}
+
+.demoDescribe {
+  text-align: left;
+  padding-left: 2em;
+}
+
+.demo:hover {
+  animation: demoMoveInHandle 2s forwards;
+}
+
+@keyframes demoMoveInHandle {
+  0% {
+
+  }
+  100% {
+    transform: scale(1.3) translateX(-1em) translateY(-1em);
+  }
+}
+
+.demoAttion {
+  text-align: right;
+  margin: 1em 0;
+}
+
+
+
