@@ -6,7 +6,8 @@
 
 .content {
   width: 1050px;
-  margin: 100px auto;
+  margin: 100px auto 0;
+
 }
 
 .content ul li {

@@ -29,12 +29,16 @@
   text-align: center;
 }
 
+.demo a {
+  color: grey;
+}
+
 .image {
   width: 13em;
   height: 15em;
   margin: 1.5em 0 2em 0;
   display: inline-block;
-  background-image: url("../../assets/bg0.jpg");
+  background-image: url("../../assets/image/bg0.jpg");
   background-size: contain;
 }
 
@@ -59,6 +63,37 @@
 .demoAttion {
   text-align: right;
   margin: 1em 0;
+}
+
+.demoAttion span {
+  padding-left: .2em;
+  color: red;
+  text-decoration: underline;
+}
+
+.demoAttion span:hover {
+
+  cursor: pointer;
+}
+
+
+/*导航样式*/
+.navigationWrapper {
+  position: absolute;
+  top: 0.5em;
+  left: 3.5em;
+  color: grey;
+  z-index: 1000;
+}
+
+.navigationWrapper span {
+
+}
+
+.navigationWrapper span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
 }
 
 

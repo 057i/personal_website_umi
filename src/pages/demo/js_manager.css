@@ -1,0 +1,194 @@
+.manager_system_wrapper {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #354457;
+}
+
+.logo_box {
+  width: 200px;
+  height: 100%;
+  line-height: 70px;
+  color: #b3bcc5;
+  padding-left: 20px;
+}
+
+.logo_box .logo {
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 70px);
+  position: relative;
+}
+
+.left_content {
+  width: 200px;
+  height: 100%;
+  background-color: #4d5e70;
+  position: absolute;
+}
+
+.left_content dt {
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.left_content dd {
+  padding-left: 30px;
+}
+
+.left_content dt,
+.left_content dd {
+  font-size: 14px;
+  line-height: 40px;
+  height: 40px;
+  color: #b3bcc5;
+  cursor: pointer;
+}
+
+.left_content dd:hover {
+  background-color: pink;
+  color: white;
+}
+
+.left_content dd.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.right_content {
+  height: 100%;
+  width: calc(100% - 200px);
+  position: absolute;
+  left: 200px;
+}
+
+.right_content .conactive {
+  display: block;
+}
+
+.add_student {
+  display: none;
+}
+
+.student_list {
+  /*display: none;*/
+}
+
+.right_content table {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+table th {
+  background-color: #e3e8ee;
+}
+
+button.btn {
+  outline: none;
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: greenyellow;
+}
+
+.del {
+  background-color: rgb(198, 18, 214);
+}
+
+.addform {
+  margin: 100px auto;
+}
+
+.stu_form {
+  width: 400px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.stu-form div {
+  margin: 10px 0; /* 这里触发margin合并*/
+}
+
+.add_student .stu_form .radio_label {
+  width: 60px;
+}
+
+.stu_form input {
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid pink;
+}
+
+.stu_form label {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.stu_form button {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px 8px;
+}
+
+.dialog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+.content .right_content .dialog .mask {
+  position: fixed;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(198, 18, 214, .5)
+}
+
+.content .right_content .dialog .mask .dialogcontent {
+  width: 500px;
+  height: 450px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+.dialog .mask .dialogcontent h2 {
+  padding-left: 10px;
+}
+
+.dialog.show {
+  display: block;
+}
+
+
+
