@@ -24,7 +24,7 @@ export default function(props) {
         <div className={styles.center}>
           <ul>
             <li><span onClick={() => {
-              window.location.href = 'http://www.baidu.com';
+              window.location.href = 'http://localhost:8080';
             }}>>>个人博客</span></li>
             <li><NavLink to="/demo/total">>>项目展示</NavLink></li>
             <li><NavLink to="/future">>>致未来</NavLink></li>
