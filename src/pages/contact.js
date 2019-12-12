@@ -1,4 +1,3 @@
-import Link from 'umi/link';
 import styles from './contact.css';
 
 export default function contact(props) {
