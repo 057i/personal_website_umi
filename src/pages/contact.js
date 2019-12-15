@@ -12,7 +12,7 @@ export default function contact(props) {
         <div className={styles.email}><img className={styles.emailIcon}/>fz12580@hotmail.com</div>
       </div>
       <div className={styles.underlineArea}>
-        <div className={styles.curTime}>当前时间：2019年12月10日19:17:27</div>
+        <div className={styles.curTime}>最后编辑时间：2019年12月10日19:17:27</div>
       </div>
       <footer>
         <span>Contact</span>

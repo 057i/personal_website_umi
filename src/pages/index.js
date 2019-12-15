@@ -78,7 +78,7 @@ export default function(props) {
 // }
 
 
-// let flag = 0;
+
 
 //展开字体框
 // function handleGrow(num) {
