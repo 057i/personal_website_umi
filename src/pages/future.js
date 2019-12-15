@@ -5,7 +5,7 @@ export default function Future(props) {
     <header className={styles.contactHeader}>
       <span onClick={() => jumpToIndex(props, '/')} className={styles.navigation}>>>57的个人站点</span>
     </header>
-    <h1 style={{ textAlign: 'center' }}>未来拥有无限的可能</h1>
+    <h1 style={{ textAlign: 'center' }}>未来拥有无限的可能(未完成，待续...)</h1>
   </>);
 
 }
