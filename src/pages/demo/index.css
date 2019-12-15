@@ -39,7 +39,7 @@
   margin: 1.5em 0 2em 0;
   display: inline-block;
   background-image: url("../../assets/image/bg0.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .demoDescribe {
